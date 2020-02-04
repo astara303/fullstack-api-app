@@ -9,7 +9,8 @@ import { faThumbsUp, faCheck } from '@fortawesome/free-solid-svg-icons'
 //make three dots to pop up at certain length of quote. Where you have to click into it to see the rest. Put statement/function where we call the quote
 //likes under each quote (+1 to value every time a user clicks it)
 
-// quote.length > 400
+// if (quote.length > 400) { 
+// return str.substring(400, 1500)
 
 const QuoteCard = ({ author, quote, _id }) => (
   <div key={_id} className="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">

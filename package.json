@@ -6,7 +6,9 @@
   "scripts": {
     "start:back": "nodemon",
     "start:front": "webpack-dev-server --mode-development",
-    "seed": "node db/seeds.js"
+    "seed": "node db/seeds.js",
+    "start": "node index.js",
+    "build": "webpack -p"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
